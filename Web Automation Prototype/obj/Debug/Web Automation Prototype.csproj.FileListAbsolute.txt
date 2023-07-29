@@ -1,0 +1,13 @@
+C:\Users\lehac\Desktop\Git\Web Automation Prototype\Web Automation Prototype\bin\Debug\selenium-manager\linux\selenium-manager
+C:\Users\lehac\Desktop\Git\Web Automation Prototype\Web Automation Prototype\bin\Debug\selenium-manager\macos\selenium-manager
+C:\Users\lehac\Desktop\Git\Web Automation Prototype\Web Automation Prototype\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\Users\lehac\Desktop\Git\Web Automation Prototype\Web Automation Prototype\bin\Debug\Web Automation Prototype.exe.config
+C:\Users\lehac\Desktop\Git\Web Automation Prototype\Web Automation Prototype\bin\Debug\Web Automation Prototype.exe
+C:\Users\lehac\Desktop\Git\Web Automation Prototype\Web Automation Prototype\bin\Debug\Web Automation Prototype.pdb
+C:\Users\lehac\Desktop\Git\Web Automation Prototype\Web Automation Prototype\bin\Debug\WebDriver.dll
+C:\Users\lehac\Desktop\Git\Web Automation Prototype\Web Automation Prototype\obj\Debug\Web Automation Prototype.csproj.AssemblyReference.cache
+C:\Users\lehac\Desktop\Git\Web Automation Prototype\Web Automation Prototype\obj\Debug\Web Automation Prototype.csproj.SuggestedBindingRedirects.cache
+C:\Users\lehac\Desktop\Git\Web Automation Prototype\Web Automation Prototype\obj\Debug\Web Automation Prototype.csproj.CoreCompileInputs.cache
+C:\Users\lehac\Desktop\Git\Web Automation Prototype\Web Automation Prototype\obj\Debug\Web Automation Prototype.csproj.CopyComplete
+C:\Users\lehac\Desktop\Git\Web Automation Prototype\Web Automation Prototype\obj\Debug\Web Automation Prototype.exe
+C:\Users\lehac\Desktop\Git\Web Automation Prototype\Web Automation Prototype\obj\Debug\Web Automation Prototype.pdb

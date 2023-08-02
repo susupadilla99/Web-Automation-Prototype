@@ -14,7 +14,7 @@ namespace Web_Automation_Prototype
         
         static IWebDriver driver;
         static String openIlearnUrl = "";
-        static String[] units = { "COMP1000", "COMP1010", "COMP1350", "COMP3000" };
+        static String[] units = { "COMP1010", "COMP1350", "COMP2100" };
         static int session = 2;
         static int year = 2023;
 
@@ -129,6 +129,26 @@ namespace Web_Automation_Prototype
             return false;
         }
 
+        static void postContent()
+        {
+            // Click on "Add discussion topic"
+            driver.FindElement(By.CssSelector(".navitem .btn[href=\"#collapseAddForm\"]")).Click();
+            Thread.Sleep(TimeSpan.FromSeconds(4));
+
+            // Clear textboxes
+            driver.FindElement(By.Id("id_subject")).Clear();
+            driver.FindElement(By.Id("id_messageeditable")).Clear();
+            Thread.Sleep(TimeSpan.FromSeconds(1));
+
+            // Send message to textboxes
+            driver.FindElement(By.Id("id_subject")).SendKeys("Welcome from FSE Student Experience Team");
+            driver.FindElement(By.Id("id_messageeditable")).SendKeys("Hi, this is a test message. If you do see this somehow, please ignore it. Thank you!");
+            Thread.Sleep(TimeSpan.FromSeconds(4));
+
+            // Press Cancel
+            driver.FindElement(By.Id("id_cancelbtn")).Click();
+        }
+
         /* Helper Functions */
         static Boolean validateUnit(IWebElement course)
         {
@@ -156,7 +176,6 @@ namespace Web_Automation_Prototype
             {
                 linkTitle = link.FindElement(By.ClassName("instancename")).GetDomProperty("innerText");
                 String cleanedLink = linkTitle.Normalize().ToLower();
-                Console.WriteLine(cleanedLink);
                 if (cleanedLink.Contains("announcements"))
                     return true;
             }
@@ -192,7 +211,7 @@ namespace Web_Automation_Prototype
 
         static void Main(string[] args)
         {
-            // readInputs();
+            readInputs();
 
             initialiseBrowser();
 
@@ -212,11 +231,17 @@ namespace Web_Automation_Prototype
                 gotoAnnouncement();
                 Thread.Sleep(TimeSpan.FromSeconds(2));
 
+                postContent();
+                Thread.Sleep(TimeSpan.FromSeconds(4));
+
                 driver.Navigate().GoToUrl(openIlearnUrl);
             }
 
             //gotoUnit("COMP3000");
             //testFunction();
+
+            driver.Navigate().GoToUrl(ILEARN_URL);
+            Console.WriteLine("All done!");
 
 
             // Exit program

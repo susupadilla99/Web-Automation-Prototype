@@ -24,3 +24,5 @@ C:\Users\MQ10002980\Desktop\Web-Automation-Prototype\Web Automation Prototype\ob
 C:\Users\MQ10002980\Desktop\Web-Automation-Prototype\Web Automation Prototype\obj\Debug\Web Automation Prototype.csproj.CopyComplete
 C:\Users\MQ10002980\Desktop\Web-Automation-Prototype\Web Automation Prototype\obj\Debug\Web Automation Prototype.exe
 C:\Users\MQ10002980\Desktop\Web-Automation-Prototype\Web Automation Prototype\obj\Debug\Web Automation Prototype.pdb
+C:\Users\MQ10002980\Desktop\Web-Automation-Prototype\Web Automation Prototype\obj\Debug\Web_Automation_Prototype.InputForm.resources
+C:\Users\MQ10002980\Desktop\Web-Automation-Prototype\Web Automation Prototype\obj\Debug\Web Automation Prototype.csproj.GenerateResource.cache
